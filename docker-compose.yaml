@@ -1,0 +1,14 @@
+version: "3.7"
+
+services:
+  app1:
+      image: "emil/container_cluster:latest"
+      ports:
+          - 4000:4000
+  app2:
+      image: "emil/container_cluster:latest"
+  app3:
+      image: "emil/container_cluster:latest" 
+   
+  app4:
+      image: "emil/container_cluster:latest"
